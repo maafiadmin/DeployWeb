@@ -13,7 +13,7 @@ variable "env" {
 data "aws_ami" "selected" {
   owners = ["self"]
   filter {
-    name   = "state"
+    name   = "state" 
     values = ["available"]
 
   }
